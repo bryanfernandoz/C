@@ -1,15 +1,18 @@
+//C program to declare different type of variables and constants and print them
+
+//variable is the name of a memory location where the user can store data
+
 #include<stdio.h>
 #include<conio.h>
 void main()
-{
-clrscr();//after succesfully getting an output of a program we use this code to clear the screen  
-int a=3;
-float f=3.14;
-double d=44.56;
-char b='A';
+{ 
+int a=3; //here we declare an integer variable "a" and store the value "3" in it
+float f=3.14; //here we declare a float variable "f" and store the value "3.14" in it
+double d=44.56; //here we declare a double variable "d" and store the value "44.56" in it
+char b='A'; //here we declare a character variable "b" and store the character "A" in it
 printf("the value of a is %d",a);
 printf("\nthe value of f is %f",f);
 printf("\n the value of d is %f",d);
 printf("\n the char is %c",b);
-getch(); //end of program
+getch();
 }
