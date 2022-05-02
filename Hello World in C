@@ -1,0 +1,13 @@
+//C program to print Hello World 
+
+#include<stdio.h>//the "#include" command includes the standard input output commands from "stdio.h" file into the program   
+
+int main()//the program execution begans from here
+
+{
+
+printf("Hello world");//the "printf" command is used to print the give content inside the ("..") as output 
+
+return 0;//end of the program
+
+}
