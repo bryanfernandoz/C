@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();//after succesfully getting an output of a program we use this code to clear the screen  
+int a=3;
+float f=3.14;
+double d=44.56;
+char b='A';
+printf("the value of a is %d",a);
+printf("\nthe value of f is %f",f);
+printf("\n the value of d is %f",d);
+printf("\n the char is %c",b);
+getch(); //end of program
+}
