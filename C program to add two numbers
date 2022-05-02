@@ -1,0 +1,15 @@
+//C program to take two numbers as input from the user and add them 
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a, b, sum; //here we declare 3 variables a,b,sum
+printf("enter first no.: ");
+scanf("%d", &a); //here the no. entered by user is stored in a
+printf("enter second no.: ");
+scanf("%d",&b); //here the no. entered by user is stored in b
+sum = a+b; //this line adds the two numbers stored in a and b and stores it in sum 
+printf("sum of the numbers: %d",sum); //the addition of two numbers stored in sum is printed as output
+getch();
+}
