@@ -1,0 +1,17 @@
+//C Program to take length and breath of a rectangle from the user and calculate its area
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int l, b, area;
+printf("enter length : ");
+scanf("%d", &l); //the value given by the user will be stored in the integer variable "l"
+printf("enter breath : ");
+scanf("%d",&b); //the value given by the user will be stored in the integer variable "b"
+area= l*b; //the values stored in "l" & "b" are multiplied and stored in the integer variable "area"
+printf("area of rectangle: %d",area); //the value stored in the varialbe "area" will be printed
+getch();
+}
+
+//💻
