@@ -1,0 +1,17 @@
+//C program to read two numbers and print bigger number using conditional operator.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,x;
+	printf("enter the values of a: ");
+	scanf("%d", &a); //the entered value is stored in "a"
+	printf("enter the value of b: ");
+	scanf("%d", &b); //the entered value is stored in "b"
+	x=(a>b)?a:b; //this line compares the values stored in "a" & "b" and stores the bigger number in "x"
+	printf("the biggest value is : %d",x); //the value stored in "x" is printed
+	getch();
+}
+
+//💻
