@@ -1,0 +1,12 @@
+//Write a program in C to read a number and print even or odd using conditional operator
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int a;
+	printf("enter a number: ");
+	scanf("%d",&a);
+	a%2 == 0? printf("\n the number is an even number"): printf("\n the number is an odd number"); //this line divides the number stored in "a" by 2 and if the remainder is equal to 0 then the first "printf" statement is printed or else the second "printf" is printed.
+  getch();
+}
