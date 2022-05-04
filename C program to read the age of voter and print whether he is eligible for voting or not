@@ -1,0 +1,12 @@
+//C program to read the age of voter and print whether he is eligible for voting or not.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int age;
+printf("enter the age of citizen: ");
+scanf("%d", &age); //the value entered by user is stored in the variable "age".
+(age>18)?printf("citizen is eligible for voting ",age):printf("citizen is not eligible for voting ", age); //this line checks if the value entered in "age" is more then 18 or not and if "age" is more then 18 then the first "printf" is printed and if the value inside "age" is less then 18 the second "printf" is printed.
+getch();
+}
