@@ -1,0 +1,14 @@
+//C program to accept a year and check whether it is a leap year or not.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int Y;
+	printf("enter the year : ");
+	scanf("%d",&Y);
+  (Y % 4 == 0)&& (Y% 100 !=0)?printf("%d is a leap year ",Y):printf("%d is not a leap year ", Y);
+	getch();
+}
+
+//💻
