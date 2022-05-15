@@ -1,0 +1,15 @@
+//C program to accept a number from user, and print whether it is positive or negative number.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	clrscr();
+	int a;
+	printf(" enter a number: ");
+	scanf("%d", &a);  //the user enters a Number and that Number is stored in integer Variable "a". 
+  (a>0)?printf("the entered no. is positive ", a): printf("the entered no. is negative ",a);  //this line checks if the number entered in "a" is more then 0 or not and if "a" is more then 0 then the first "printf" is printed and if the number less then 0 the second "printf" is printed. 
+	getch();
+}
+
+//💻
