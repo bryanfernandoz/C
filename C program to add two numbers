@@ -13,3 +13,5 @@ sum = a+b; //this line adds the two numbers stored in a and b and stores it in s
 printf("sum of the numbers: %d",sum); //the addition of two numbers stored in sum is printed as output
 getch();
 }
+
+//💻
